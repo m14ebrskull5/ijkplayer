@@ -1,0 +1,14 @@
+prefix=/mnt/ijkplayer/android/contrib/build/ffmpeg-x86_64/output
+exec_prefix=${prefix}
+libdir=/mnt/ijkplayer/android/contrib/build/ffmpeg-x86_64/output/lib
+includedir=/mnt/ijkplayer/android/contrib/build/ffmpeg-x86_64/output/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.14.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil -pthread -lm
+Libs.private: 
+Cflags: -I${includedir}

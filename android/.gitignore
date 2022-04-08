@@ -18,7 +18,6 @@ gen/
 
 # Gradle files
 .gradle/
-build/
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -34,7 +33,6 @@ proguard/
 # https://github.com/github/gitignore/blob/master/Gradle.gitignore
 #--------------------
 .gradle
-build/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -48,7 +46,6 @@ gradle-app.setting
 # https://gist.github.com/iainconnor/8605514
 #--------------------
 # Built application files
-/*/build/
  
 # Crashlytics configuations
 com_crashlytics_export_strings.xml
